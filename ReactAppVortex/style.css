@@ -1,0 +1,21 @@
+html {
+  background: #23272f;
+  color: #62dafb;
+  font:
+    500 150%/1.4 system-ui,
+    sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+
+header {
+  text-align: center;
+}
+.icon {
+  font-size: 10dvw;
+}

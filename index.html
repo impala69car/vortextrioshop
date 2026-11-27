@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://cb678624.tw1.ru/ -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>сети магазинов</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: #f0f7ff;
+    color: #1a2b3c;
+    line-height: 1.6;
+  }
+
+  /* ---------- ШАПКА ---------- */
+  header {
+    background: linear-gradient(135deg, #1e88e5, #00acc1);
+    color: #fff;
+    padding: 50px 20px 60px;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+  }
+  header .icon { font-size: 3.5rem; margin-bottom: 10px; }
+  header h1 { font-size: clamp(1.5rem, 5vw, 2.4rem); margin-bottom: 12px; }
+  header p { font-size: 1.05rem; opacity: .95; max-width: 600px; margin: 0 auto; }
+
+  /* ---------- КОНТЕЙНЕР ---------- */
+  .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+
+  /* ---------- ЗАГОЛОВКИ СЕКЦИЙ ---------- */
+  h2 {
+    font-size: 1.6rem;
+    color: #1565c0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h2 .emoji { font-size: 1.8rem; }
+
+  /* ---------- КАРТОЧКИ магазинов ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin-bottom: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 24px 20px;
+    box-shadow: 0 6px 20px rgba(30, 136, 229, .12);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(30, 136, 229, .22); }
+  .card .ico { font-size: 2.2rem; margin-bottom: 10px; }
+  .card h3 { font-size: 1.1rem; color: #0d47a1; margin-bottom: 8px; }
+  .card p { font-size: .95rem; color: #455a64; }
+  .card .protect {
+    margin-top: 12px;
+    padding: 10px 12px;
+    background: #e8f5e9;
+    border-left: 4px solid #43a047;
+    border-radius: 8px;
+    font-size: .88rem;
+    color: #2e7d32;
+  }
+
+  /* ---------- ПРАВИЛА ---------- */
+  .rules {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(30, 136, 229, .12);
+  }
+  .rule {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px dashed #cfd8dc;
+  }
+  .rule:last-child { border-bottom: none; }
+  .rule .num {
+    flex-shrink: 0;
+    width: 36px; height: 36px;
+    background: linear-gradient(135deg, #1e88e5, #00acc1);
+    color: #fff;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .rule p { font-size: 1rem; }
+
+  /* ---------- ПРОЕКТЫ магазинов---------- */
+  .projects .card { border-top: 5px solid #1e88e5; }
+  .projects .card h3 { font-size: 1rem; }
+  .badge {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #1565c0;
+    font-size: .75rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+
+  /* ---------- ИТОГ ---------- */
+  .final {
+    background: linear-gradient(135deg, #e3f2fd, #e0f7fa);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .final p { font-size: 1.1rem; color: #0d47a1; }
+
+  /* ---------- ПОДВАЛ ---------- */
+  footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: #78909c;
+    font-size: .85rem;
+  }
+
+  /* ---------- МОБИЛЬНЫЕ ---------- */
+  @media (max-width: 600px) {
+    header { padding: 40px 16px 50px; }
+    h2 { font-size: 1.3rem; }
+    .rules { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="icon">🛡️</div>
+  <h1>сайт vortex trio shop</h1>
+  <p>заходишь в сайт и покупаешь вещи</p>
+</header>
+
+<div class="container">
+
+  <!-- ЧТО ЭТО -->
+  <section>
+    <h2><span class="emoji">:)</h2>
+    <div class="card">
+      <p>магазине вы можете купить самоделки детей и всякие товары магазине vortex trio shop</p>
+      <p style="margin-top:10px">магазин самоделок там продаються самоделки детей в магазине vortex trio shop</p>
+    </div>
+  </section>
+
+  <!-- магазине -->
+  <section style="margin-top:40px">
+    <h2><span class="emoji"></span>каждый 4 товар беслатный</h2>
+    <div class="grid">
+
+      <div class="card">
+        <div class="ico"></div>
+        <h3>вязаные товары</h3>
+        <p>еще есть много товаров от детских товаров и еще самодельных</p>
+        <div class="protect">вязаные носки</div>
+      </div>
+
+      <div class="card">
+        <div class="ico"></div>
+        <h3>у нас очень много товаров</h3>
+        <p>покупать можно и в интернете и на улице и в торговых центрах</p>
+        <div class="protect">вязаные шапки</div>
+      </div>
+
+      <div class="card">
+        <div class="ico"></div>
+        <h3>Кибермагазины по всей россии</h3>
+        <p>дети сами все делают</p>
+        <div class="protect">и будет акция 1000 покупателя талон на 10 товаров</div>
+      </div>
+
+      <div class="card">
+        <div class="ico"></div>
+        <h3>иагазины россии</h3>
+        <p>доставка по всей россии</p>
+        <div class="protect">защита от краж на выходе будут пищалки</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ПРАВИЛА -->
+  <section style="margin-top:40px">
+    <h2><span class="emoji">📋</span></h2>
+    <div class="rules">
+
+      <div class="rule">
+        <div class="num">1</div>
+        <p><b>сети магазинов будут возрастаться и почти во всех населеных пунктах будет пвз</b></p>
+      </div>
+
+      <div class="rule">
+        <div class="num">2</div>
+        <p><b>сети магазинов vortex trio shop</b> </p>
+      </div>
+
+      <div class="rule">
+        <div class="num">3</div>
+        <p><b>к 2029 сети магазинов перейдут в остальные снг страны</b> </p>
+      </div>
+
+      <div class="rule">
+        <div class="num">4</div>
+        <p><b>айти </b>маркет плейс можно будет скачать с плей маркета и эпл стор</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ПРОЕКТ магазина -->
+  <section class="projects" style="margin-top:40px">
+    <h2><span class="emoji">🌏</span>сети магазинов скоро будут продовать еду</h2>
+    <div class="grid">
+
+      <div class="card">
+        <span class="badge"></span>
+        <h3></h3>
+        <p></p>
+      </div>
+
+      <div class="card">
+        <span class="badge"></span>
+        <h3></h3>
+        <p></p>
+      </div>
+
+      <div class="card">
+        <span class="badge"></span>
+        <h3></h3>
+        <p></p>
+      </div>
+
+      <div class="card">
+        <span class="badge"></span>
+        <h3></h3>
+        <p></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ИТОГ -->
+  <section class="final">
+    <p>💡 <b></p>
+  </section>
+
+</div>
+
+<footer>
+  Сеть магазинов 2026
+</footer>
+
+
+</body></html>
